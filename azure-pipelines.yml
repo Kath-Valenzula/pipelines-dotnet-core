@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
-  name: LocalPool  # Este nombre debe ser igual al que pongas al crear el pool en Project Settings
+  name: LocalPool
+
 
 steps:
 - script: echo Hello, world!
